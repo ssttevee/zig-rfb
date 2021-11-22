@@ -1,0 +1,11 @@
+.{
+    .name = .rfb,
+    .version = "0.0.0",
+    .fingerprint = 0x382fa979044bc003,
+    .minimum_zig_version = "0.15.1",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
