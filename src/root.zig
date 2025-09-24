@@ -69,6 +69,10 @@ pub const ClientOptions = handshake.ClientOptions;
 pub const clientHandshake = handshake.client.handshake;
 pub const serverHandshake = handshake.server.handshake;
 
+pub const connection = @import("connection.zig");
+pub const ClientConnection = connection.Client;
+pub const ServerConnection = connection.Server;
+
 const rc = @import("rc.zig");
 pub const Rc = rc.Rc;
 pub const ConstRc = rc.ConstRc;

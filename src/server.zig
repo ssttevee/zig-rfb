@@ -25,3 +25,5 @@ pub const SecurityType = common.SecurityType;
 pub const SecurityTypeInt = common.SecurityTypeInt;
 
 pub const handshake = @import("handshake/server.zig").handshake;
+
+pub const Connection = @import("connection/server.zig");
